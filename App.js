@@ -12,6 +12,9 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <FetchLocation onGetLocation={this.getUserLocationHandler}/>
+        <Text>hello World</Text>
+        <Text>i don't know this language</Text>
+        <Text>Git commit test</Text>
       </View>
     );
   }
